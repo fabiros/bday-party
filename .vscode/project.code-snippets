@@ -1,0 +1,25 @@
+{
+    "comp": {
+        "prefix": "comp",
+        "body": [
+            "import React from 'react';",
+            "import PropTypes, { InferProps } from 'prop-types';",
+            "",
+            "const propTypes = {};",
+            "const defaultProps = {};",
+            "",
+            "const $1 = (props: InferProps<typeof $1.propTypes>) => {",
+            "    const {} = props;",
+            "",
+            "    return <></>;",
+            "};",
+            "",
+            "$1.displayName = $1.name;",
+            "$1.propTypes = propTypes;",
+            "$1.defaultProps = defaultProps;",
+            "",
+            "export default $1;"
+        ],
+        "description": ""
+    }
+}
