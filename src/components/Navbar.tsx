@@ -9,12 +9,13 @@ const defaultProps = {};
 const Navbar = () => {
     return (
         <BNavbar bg='dark' variant='dark'>
-            <BContainer>
+            <BContainer className='w-50'>
                 <BNavbar.Brand href='#home'>Navbar</BNavbar.Brand>
-                <BNav className='me-auto'>
+                <BNav className='justify-content-end' id='navbar'>
                     <BNav.Link href='#home'>Home</BNav.Link>
-                    <BNav.Link href='#features'>Features</BNav.Link>
-                    <BNav.Link href='#pricing'>Pricing</BNav.Link>
+                    <BNav.Link href='#music'>Musik</BNav.Link>
+                    <BNav.Link href='#guests'>Gäste</BNav.Link>
+                    <BNav.Link href='#location'>Standort</BNav.Link>
                 </BNav>
             </BContainer>
         </BNavbar>
