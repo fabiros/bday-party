@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bday-party/static/css/main.aac3679d.css",
+    "main.js": "/bday-party/static/js/main.5b91463c.js",
+    "static/js/787.259a3e2a.chunk.js": "/bday-party/static/js/787.259a3e2a.chunk.js",
+    "index.html": "/bday-party/index.html",
+    "main.aac3679d.css.map": "/bday-party/static/css/main.aac3679d.css.map",
+    "main.5b91463c.js.map": "/bday-party/static/js/main.5b91463c.js.map",
+    "787.259a3e2a.chunk.js.map": "/bday-party/static/js/787.259a3e2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aac3679d.css",
+    "static/js/main.5b91463c.js"
+  ]
+}
