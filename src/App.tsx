@@ -55,7 +55,12 @@ const App = () => {
                 <section id='home' className='d-flex justify-content-center' style={{ height: '60vh' }}>
                     <Row className='h-100 w-50'>
                         <Col style={{ marginTop: '25%' }}>
-                            <h1 className='text-light'>Home</h1>
+                            <h1 className='text-light'>Fabian Rosinger</h1>
+                            <h1 className='text-light'>23 Bday Party</h1>
+                        </Col>
+                        <Col style={{ marginTop: '26%' }}>
+                            <h4 className='text-light'>Wo: Jugendheim Schrattenthal, Schrattenthal 41</h4>
+                            <h4 className='text-light'>Wann: PreParty: 18:30, Party: 21:00</h4>
                         </Col>
                     </Row>
                 </section>
@@ -94,7 +99,7 @@ const App = () => {
                         </Col>
                     </Row>
                 </section>
-                <section id='guests' className='d-flex justify-content-center mb-5'>
+                <section id='guests' className='d-flex justify-content-center pb-5'>
                     <Row className='h-100 w-50'>
                         <Col>
                             <h1 className='text-light text-center'>Gäste</h1>
@@ -113,21 +118,6 @@ const App = () => {
                                         </h6>
                                     ))}
                                 </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                </section>
-                <section id='location' className='bg-location bg-light d-flex justify-content-center'>
-                    <Row className='h-100 w-50'>
-                        <Col className='mt-5'>
-                            <h1 className='text-dark text-center'>Location</h1>
-                            <Row className='mt-3'>
-                                <Col>
-                                    <h6 className='text-dark'>Jugendheim Schrattenthal</h6>
-                                    <h6 className='text-dark'>Schrattenthal 41</h6>
-                                    <h6 className='text-dark'>Schrattenthal 2073</h6>
-                                </Col>
-                                <Col></Col>
                             </Row>
                         </Col>
                     </Row>
